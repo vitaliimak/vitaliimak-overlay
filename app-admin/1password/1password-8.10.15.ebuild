@@ -7,7 +7,7 @@ inherit rpm xdg-utils
 
 DESCRIPTION="The world’s most-loved password manager"
 HOMEPAGE="https://1password.com"
-SRC_URI="amd64? ( https://downloads.1password.com/linux/rpm/beta/x86_64/1password-latest.rpm -> ${PN}.x86_64.rpm )"
+SRC_URI="amd64? ( https://downloads.1password.com/linux/rpm/beta/x86_64/1password-latest.rpm -> ${P}.x86_64.rpm )"
 
 LICENSE=""
 SLOT="0"
@@ -34,7 +34,7 @@ src_prepare() {
 }
 
 src_unpack() {
-  rpm_unpack ${PN}.x86_64.rpm
+  rpm_unpack ${P}.x86_64.rpm
 }
 
 src_install() {
