@@ -8,4 +8,5 @@
 
 ## 1Password links
 
-- [1Password](https://downloads.1password.com/linux/tar/beta/x86_64/1password-latest.tar.gz)
+- [1Password latest](https://downloads.1password.com/linux/tar/beta/x86_64/1password-latest.tar.gz)
+- [1Password stable version](https://downloads.1password.com/linux/tar/stable/x86_64/1password-8.10.75.x64.tar.gz)
