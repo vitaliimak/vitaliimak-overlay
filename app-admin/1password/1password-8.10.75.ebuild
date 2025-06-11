@@ -18,7 +18,7 @@ DEPEND="
 x11-misc/xdg-utils
 acct-group/onepassword
 policykit? ( sys-auth/polkit )
-cli? ( app-admin/op-cli-bin )
+cli? ( app-admin/1password-cli )
 "
 RDEPEND="${DEPEND}"
 SLOT="0"
