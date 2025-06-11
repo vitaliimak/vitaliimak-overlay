@@ -15,7 +15,9 @@ RESTRICT="mirror strip test bindist"
 
 DEPEND=""
 RDEPEND="${DEPEND}"
-BDEPEND=""
+BDEPEND="app-arch/unzip"
+
+QA_PREBUILT="usr/bin/op"
 
 S=${WORKDIR}
 
