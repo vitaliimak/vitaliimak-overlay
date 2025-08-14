@@ -9,7 +9,7 @@ inherit desktop xdg
 DESCRIPTION="Password Manager"
 HOMEPAGE="https://1password.com"
 SRC_URI="
-	amd64? ( https://downloads.1password.com/linux/tar/stable/x86_64/${PN}-${PV}.x64.tar.gz -> ${P}-amd64.tar.gz ) "
+	amd64? ( https://downloads.1password.com/linux/tar/stable/x86_64/${PN}-${PV}.x64.tar.gz ) "
 
 LICENSE="all-rights-reserved"
 KEYWORDS="amd64 arm64"
